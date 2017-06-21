@@ -32,13 +32,17 @@ body {
 
 #name {
   float: left;
+  font-size: 36px;
   width: 266px;
+  height: 36px;
   background-color: #4aaaa5;
   color: white;
   padding: 12px;
   margin-left: 74px;
   margin-top: 0;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #nav {
@@ -46,7 +50,7 @@ body {
   float: left;
   color: #777777;
   width: 480px;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 116px;
   margin-top: 20px;
   z-index: 1;
@@ -59,7 +63,7 @@ body {
 
 #about, #portfolio, #contact {
   display: inline-block;
-  padding: 6px;
+  padding: 8px;
 }
 
 
@@ -98,8 +102,17 @@ body {
   width: 200px;
   float: left;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 20px;
+}
 
 /*Main content styling above*/
 
@@ -110,8 +123,9 @@ body {
   background-color: #ffffff;
   color: #4aaaa5;
   padding: 14px;
+  padding-bottom: 30px;
   text-align: center;
-  line-height: 50px;
+  line-height: 60px;
   margin-top: 50px;
   margin-left: 50px;
   float: left;
@@ -124,12 +138,15 @@ body {
 
 h2 {
   border-bottom: 2px solid #dddddd;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .icons {
   width: 50px;
   display: inline-block;
   padding: 10px;
+  margin-top: 20px;
 }
 
 
@@ -147,6 +164,9 @@ footer {
   padding-bottom: 20px;
   height: 30px;
   border-top: 10px solid #4aaaa5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /*Sticky footer*/
   position: absolute;
   bottom: 0;
@@ -154,7 +174,7 @@ footer {
 }
 
 h3 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -165,6 +185,7 @@ h3 {
 /*input form styling*/
 
 #contact-name {
+  margin-top: 20px;
   margin-bottom: 20px;
   width: 20px;
 }
@@ -185,9 +206,13 @@ textarea {
 button {
   background-color: #4aaaa5;
   padding: 6px;
-  margin-top: 10px;
+  margin-top: 20px;
   color: white;
   font-size: 16px;
+}
+
+input {
+  margin-top: 10px;
 }
 
 
@@ -209,7 +234,7 @@ button {
 .portfolio-img-1, .portfolio-img-2, .portfolio-img-3, .portfolio-img-4, .portfolio-img-5 {
   width: 180px;
   display: inline-block;
-  padding: 10px;
+  padding: 16px;
   float: left;
   position: relative;
 }
@@ -218,14 +243,14 @@ button {
   position: absolute;
   background-color: #4aaaa5;
   color: white;
-  padding: 10px;
+  padding: 15px;
   width: 150px;
-  height: 10px;
+  height: 6px;
   text-align: center;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 94px;
+  top: 100px;
   left: 16px;
 }
